@@ -1,0 +1,37 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.center-align {
+    text-align: center;
+}
+.App-header {
+  background-color: #222;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.App-header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.App-header .active {
+    text-decoration: underline;
+}
+
+.create-contact,
+.contacts {
+    min-height: 300px;
+}
+
+.contacts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contacts-grid .contact {
+    width: 25%;
+    margin-bottom: 25px;
+}
